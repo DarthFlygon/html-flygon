@@ -1,0 +1,27 @@
+body{
+    
+    background-image: url("./images/bg.jpg");
+}
+.dstyle{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:whitesmoke;
+    padding: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.hstyle{
+    text-align: center;
+}
+.imgstyle{
+    height: 100px;
+    width: 100px;
+}
+.noUnderline{
+    text-decoration: none;
+}
+button{
+    margin: 5px;
+}

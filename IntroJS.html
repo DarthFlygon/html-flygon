@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Refering our css file -->
+    <link rel="stylesheet" href="sample.css">
+
+    <title>HTML Basics</title>
+  </head>
+  <body>
+    <div class="dstyle">
+
+   
+      <h1 class="hstyle">Making a dynamic website by adding Javascript</h1>
+      <p>Javascript is not related to java by any means. <br>
+      Basic javascript is used to create animations, make responses to page actions like pressing buttons or links.</p>
+      <p id="demo">JavaScript can change HTML content.</p>
+      <button type="button" onclick=popup() >Change text</button>
+      <button type="button" onclick=bold() >Change text style</button>
+
+    
+      <div id="imagearea">
+          <button type="button" onclick=addimg() >Add an image here</button>
+      </div>
+      <button type="button">
+          <a class="noUnderline" href="./Home.html">HTML only</a>
+      </button>
+     
+      <button type="button">
+        <a class="noUnderline" href="./IntroCSS.html">CSS basics</a>
+      </button>
+     
+    
+    </div>
+    <script src="sample.js"></script>
+  </body>
+</html>
